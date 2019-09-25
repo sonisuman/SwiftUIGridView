@@ -9,13 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello World")
+  var body: some View {
+    List {
+      //row
+      ForEach(0..<5) { _ in
+        VStack {
+          //column
+          ForEach (0..<2) {_ in
+            Image("twopic")
+              .resizable()
+              .scaledToFit()
+          }
+        }
+      }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+  static var previews: some View {
+    ContentView()
+  }
 }

@@ -15,6 +15,9 @@
 		E46AA793233BA20B004068B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46AA791233BA20B004068B3 /* LaunchScreen.storyboard */; };
 		E46AA79E233BA20C004068B3 /* GridViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46AA79D233BA20C004068B3 /* GridViewTests.swift */; };
 		E46AA7A9233BA20C004068B3 /* GridViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46AA7A8233BA20C004068B3 /* GridViewUITests.swift */; };
+		E46AA7B9233BA251004068B3 /* twopic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E46AA7B6233BA250004068B3 /* twopic.jpg */; };
+		E46AA7BA233BA251004068B3 /* onepic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E46AA7B7233BA250004068B3 /* onepic.jpg */; };
+		E46AA7BB233BA251004068B3 /* thirdpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E46AA7B8233BA250004068B3 /* thirdpic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E46AA7A4233BA20C004068B3 /* GridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46AA7A8233BA20C004068B3 /* GridViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewUITests.swift; sourceTree = "<group>"; };
 		E46AA7AA233BA20C004068B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46AA7B6233BA250004068B3 /* twopic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twopic.jpg; sourceTree = "<group>"; };
+		E46AA7B7233BA250004068B3 /* onepic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onepic.jpg; sourceTree = "<group>"; };
+		E46AA7B8233BA250004068B3 /* thirdpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thirdpic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		E46AA785233BA1F1004068B3 /* GridView */ = {
 			isa = PBXGroup;
 			children = (
+				E46AA7B7233BA250004068B3 /* onepic.jpg */,
+				E46AA7B8233BA250004068B3 /* thirdpic.jpg */,
+				E46AA7B6233BA250004068B3 /* twopic.jpg */,
 				E46AA786233BA1F1004068B3 /* AppDelegate.swift */,
 				E46AA788233BA1F1004068B3 /* SceneDelegate.swift */,
 				E46AA78A233BA1F1004068B3 /* ContentView.swift */,
@@ -243,6 +252,9 @@
 				E46AA793233BA20B004068B3 /* LaunchScreen.storyboard in Resources */,
 				E46AA790233BA20B004068B3 /* Preview Assets.xcassets in Resources */,
 				E46AA78D233BA20B004068B3 /* Assets.xcassets in Resources */,
+				E46AA7BA233BA251004068B3 /* onepic.jpg in Resources */,
+				E46AA7BB233BA251004068B3 /* thirdpic.jpg in Resources */,
+				E46AA7B9233BA251004068B3 /* twopic.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
