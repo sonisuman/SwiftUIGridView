@@ -13,7 +13,7 @@ struct ContentView: View {
     List {
       //row
       ForEach(0..<5) { _ in
-        VStack {
+        HStack {
           //column
           ForEach (0..<2) {_ in
             Image("twopic")
