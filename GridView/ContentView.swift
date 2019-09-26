@@ -9,14 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
+  let images = NatureImages.All()
   var body: some View {
-    List {
-      //row
-      ForEach(0..<5) { _ in
+    let chunkedimages = images.chunked(into: 2)
+    return List {
+      ForEach(0 ..< chunkedimages.count) { index in
         HStack {
-          //column
-          ForEach (0..<2) {_ in
-            Image("twopic")
+          ForEach(chunkedimages[index]) {  imageData in
+            Image(imageData.imageURL)
               .resizable()
               .scaledToFit()
           }
