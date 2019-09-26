@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
   let images = NatureImages.All()
   var body: some View {
-    let chunkedimages = images.chunked(into: 2)
+    let chunkedimages = images.chunked(into: 3)
     return List {
       ForEach(0 ..< chunkedimages.count) { index in
         HStack {

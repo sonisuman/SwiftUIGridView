@@ -23,7 +23,12 @@ extension NatureImages {
             NatureImages(name: "2Image", imageURL: "twopic", price: 30),
             NatureImages(name: "3Image", imageURL: "onepic", price: 20),
             NatureImages(name: "4Image", imageURL: "thirdpic", price: 30),
-            NatureImages(name: "5Image", imageURL: "twopic", price: 20)]
+            NatureImages(name: "5Image", imageURL: "twopic", price: 20),
+            NatureImages(name: "6Image", imageURL: "onepic", price: 20),
+            NatureImages(name: "7Image", imageURL: "thirdpic", price: 20),
+            NatureImages(name: "8Image", imageURL: "twopic", price: 20),
+            NatureImages(name: "9Image", imageURL: "onepic", price: 20)]
+    
   }
 }
 
